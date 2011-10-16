@@ -47,14 +47,14 @@ a:hover { color:#D79C2B; }
 .dialogTable td.dialogTableContent .dialogBody { padding:0; }
 table.dialogTable { border-collapse:collapse; direction:ltr; margin:auto; table-layout:fixed; width:500px; margin:0 auto; }
 td.dialogTableTopLeft, td.dialogTableTopRight, td.dialogTableBorderBotLeft, td.dialogTableBorderBotRight { height:10px; overflow:hidden; padding:0 !important; width:10px !important; }
-td.dialogTableTopLeft { background:url(/theme/images/dialog/facebook-pop-dialog-sprite.png) no-repeat; }
-td.dialogTableTopRight { background:url(/theme/images/dialog/facebook-pop-dialog-sprite.png) no-repeat 0 -10px; }
-td.dialogTableBorderBotLeft { background:url(/theme/images/dialog/facebook-pop-dialog-sprite.png) no-repeat 0 -20px; }
-td.dialogTableBorderBotRight { background:url(/theme/images/dialog/facebook-pop-dialog-sprite.png) no-repeat 0 -30px; }
-td.dialogTableBorderTop, td.dialogTableBorderBottom { background:url(/theme/images/dialog/facebook-pop-dialog-sprite.png) repeat-x 0 -40px; }
-td.dialogTableBorderSide { background:url(/theme/images/dialog/facebook-pop-dialog-sprite.png) repeat-y -10px 0; }
+td.dialogTableTopLeft { background:url(/theme/default/images/dialog/facebook-pop-dialog-sprite.png) no-repeat; }
+td.dialogTableTopRight { background:url(/theme/default/images/dialog/facebook-pop-dialog-sprite.png) no-repeat 0 -10px; }
+td.dialogTableBorderBotLeft { background:url(/theme/default/images/dialog/facebook-pop-dialog-sprite.png) no-repeat 0 -20px; }
+td.dialogTableBorderBotRight { background:url(/theme/default/images/dialog/facebook-pop-dialog-sprite.png) no-repeat 0 -30px; }
+td.dialogTableBorderTop, td.dialogTableBorderBottom { background:url(/theme/default/images/dialog/facebook-pop-dialog-sprite.png) repeat-x 0 -40px; }
+td.dialogTableBorderSide { background:url(/theme/default/images/dialog/facebook-pop-dialog-sprite.png) repeat-y -10px 0; }
 td.dialogTableContent { background-color:white; direction:ltr; padding:0; }
-.dialogContent        { background:url(/theme/images/dialog/popup.gif) repeat-x; border:4px solid #d1ded8; padding:26px 43px 36px; position:relative; }
+.dialogContent        { background:url(/theme/default/images/dialog/popup.gif) repeat-x; border:4px solid #d1ded8; padding:26px 43px 36px; position:relative; }
 .dialogContent h2     { font-size:150%; margin:0 0 20px; }
-.dialogClose          { cursor:pointer; width:18px; height:18px; background:url(/theme/images/dialog/btn_popup_close.gif) no-repeat; position:absolute; right:5px; top:5px; text-indent:-9999px; }
+.dialogClose          { cursor:pointer; width:18px; height:18px; background:url(/theme/default/images/dialog/btn_popup_close.gif) no-repeat; position:absolute; right:5px; top:5px; text-indent:-9999px; }
 .dialogClose:hover    { background-position:0 -20px; }

@@ -31,17 +31,18 @@ a:hover { color:#D79C2B; }
 
 /** HELPER CLASSES **/
 
-.clear      { clear:both; }
-.floatLeft  { float:left; }
-.floatRight { float:right; }
+.clear       { clear:both; }
+.clearFooter { height:84px; clear:both; }
+.floatLeft   { float:left; }
+.floatRight  { float:right; }
 
 /** WRAPPER **/
 
-#wrapper { height:auto; min-height:100%; width:100%; }
+#wrapper { height:auto; min-height:100%; width:100%; margin-bottom:-84px; }
 
 /** HEADER **/
 
-#header { background:url(/theme/images/template/header_bg.png); border-bottom:4px solid #7f93bc; color:#fff; height:20px; padding:5px; }
+#header { background:url(/theme/admin/images/template/header_bg.png); border-bottom:4px solid #7f93bc; color:#fff; height:20px; padding:5px; }
 
 #header a { color:#F5AE25; }
 #header a:hover { color:#fff; }
@@ -57,14 +58,14 @@ a:hover { color:#D79C2B; }
 #header .links li a:hover { color: #D79C2B; }
 
 #header .tabs { bottom: 0; list-style: none; margin: 0; padding: 0 15px 0 0; position: absolute; right: 0px; width: auto; z-index: 100; }
-#header .tabs li { background: transparent url(/theme/images/template/header_tab.gif) 100% -600px no-repeat; border-bottom: 1px solid #515358; float: right; margin: 0 1px 0 0; padding: 0 6px 0 0; }
-#header .tabs a { background: transparent url(/theme/images/template/header_tab.gif) 0% -600px no-repeat; color: #ffffff; display: block; float: left; font-weight: bold; padding: 4px 4px 4px 10px; text-decoration: none; }
+#header .tabs li { background: transparent url(/theme/admin/images/template/header_tab.gif) 100% -600px no-repeat; border-bottom: 1px solid #515358; float: right; margin: 0 1px 0 0; padding: 0 6px 0 0; }
+#header .tabs a { background: transparent url(/theme/admin/images/template/header_tab.gif) 0% -600px no-repeat; color: #ffffff; display: block; float: left; font-weight: bold; padding: 4px 4px 4px 10px; text-decoration: none; }
 #header .tabs li:hover a { background-position: 0% -400px; }
 #header .tabs li:hover { background-position: 100% -400px; }
 
 /** INFO **/
 
-#info { background: transparent url(/theme/images/template/breadcrumbs.png) bottom repeat-x; border-top:2px solid #3b5998; color: #999; height: 20px; padding: 4px 0 35px 25px; }
+#info { background: transparent url(/theme/admin/images/template/breadcrumbs.png) bottom repeat-x; border-top:2px solid #3b5998; color: #999; height: 20px; padding: 4px 0 35px 25px; }
 #info a:link, #info a:visited { color: #0E2861; }
 #info a:hover, #info a:active { color: #fff; }
 #info .login        { color: #303030;  padding: 10px 5px 0 5px; position: absolute; right: 20px; top: 32px; z-index: 10; }
@@ -75,7 +76,7 @@ a:hover { color:#D79C2B; }
 
 /** CONTENT **/
 
-#content { height:100%; padding:0 25px; margin-left:175px; }
+#content { min-height:100%; padding:0 25px; margin-left:175px; }
 .login #content { margin-left:0; }
 
 /** NAVIGATION **/
@@ -93,9 +94,9 @@ a:hover { color:#D79C2B; }
 #adminNav li.menuOpen a.menuTopLast { border-bottom:0 none; border-bottom-left-radius:0; border-bottom-right-radius:0; }*/
 
 #nav { clear:left; float:left; list-style:none outside none; margin:0 5px 35px -180px; padding:0; position:relative; width:160px; }
-#nav .navigation { background: #E0E9E9 url(/theme/images/template/menu_back.gif) right repeat-y; margin-bottom: 1em; }
-#nav .navigation:before { background: transparent url(/theme/images/template/menu_tr.gif) no-repeat top right; border-bottom: 1px solid #ddd; content: url(/theme/images/template/key-point_tl.gif); display: block; font-size: 1px; height: 8px; line-height: 0.1; margin: 0; }
-#nav .navigation:after { background: transparent url(/theme/images/template/menu_br.gif) scroll no-repeat bottom right; border-top: 1px solid #fff; content: url(/theme/images/template/key-point_bl.gif); display: block; font-size:1px; height: 8px; line-height: 0.1; margin: 0 0 10px 0; padding-top: 0; }
+#nav .navigation { background: #E0E9E9 url(/theme/admin/images/template/menu_back.gif) right repeat-y; margin-bottom: 1em; }
+#nav .navigation:before { background: transparent url(/theme/admin/images/template/menu_tr.gif) no-repeat top right; border-bottom: 1px solid #ddd; content: url(/theme/admin/images/template/key-point_tl.gif); display: block; font-size: 1px; height: 8px; line-height: 0.1; margin: 0; }
+#nav .navigation:after { background: transparent url(/theme/admin/images/template/menu_br.gif) scroll no-repeat bottom right; border-top: 1px solid #fff; content: url(/theme/admin/images/template/key-point_bl.gif); display: block; font-size:1px; height: 8px; line-height: 0.1; margin: 0 0 10px 0; padding-top: 0; }
 #nav .navigation ul { margin: 0; padding: 0; list-style: none; }
 #nav .navigation li { display: inline; padding: 0; margin: 0; }
 #nav .navigation ul li a { padding-left:25px; }
@@ -159,15 +160,15 @@ form .rememberMe { float:left; font-weight:normal; }
 form .rememberMeLabel { font-size:90%; line-height:19px; padding-left:5px; bottom:2px; position:relative; }
 form .submit, .alignright { float:right; }
 .submit { border-color:#DFDFDF; }
-input.button-primary, button.button-primary, a.button-primary { background:url(/theme/images/template/button-grad.png) repeat-x scroll left top #21759B; border-color:#298CBA; color:#FFF; font-weight:bold; text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3); float:right; }
+input.button-primary, button.button-primary, a.button-primary { background:url(/theme/admin/images/template/button-grad.png) repeat-x scroll left top #21759B; border-color:#298CBA; color:#FFF; font-weight:bold; text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3); float:right; }
 .lostPassword { margin:0 0 0 8px; padding:16px; font-size:90%; }
 form ul.errors { box-shadow:0 0 20px #C8C8C8; border-radius:5px; background-color:#FBE1E3; border:1px solid #CC0000; margin-bottom:10px; padding:10px; }
 form ul.errors li { padding:0; color:#666; padding:5px 0 5px; font-size:90%; }
 
 /** ERROR BOX **/
 
-.errorBox { color:#FFF; font-size:100%; line-height:13px; background:url(/theme/images/template/error_box.gif) no-repeat 100% 100%; padding:0 0 7px; position:absolute; }
-.errorBox .errorBoxSleeve { background:url(/theme/images/template/error_box_sleeve.gif) no-repeat 100% 0; width:106px; padding:9px 9px 5px 24px; min-height:26px; }
+.errorBox { color:#FFF; font-size:100%; line-height:13px; background:url(/theme/admin/images/template/error_box.gif) no-repeat 100% 100%; padding:0 0 7px; position:absolute; }
+.errorBox .errorBoxSleeve { background:url(/theme/admin/images/template/error_box_sleeve.gif) no-repeat 100% 0; width:106px; padding:9px 9px 5px 24px; min-height:26px; }
 
 /** BUTTONS **/
 
@@ -189,13 +190,13 @@ form ul.errors li { padding:0; color:#666; padding:5px 0 5px; font-size:90%; }
 
 table { border-collapse: collapse; }
 .tbl { border: 1px solid #333; width: 100%; }
-.tbl .tbl_title { background: transparent url(/theme/images/template/header_bg.png) repeat-x; color: #ffffff; font-weight: bold; padding: 3px; }
-.tbl th { background: transparent url(/theme/images/template/bg.jpg) repeat-x; border: 1px solid #333; color: #000000; font-weight: bold; padding: 3px; text-align: left; vertical-align: top; }
-.tbl .th { background: transparent url(/theme/images/template/bg.jpg) repeat-x; color: #000000; font-weight: bold; height: 22px; padding: 3px; }
+.tbl .tbl_title { background: transparent url(/theme/admin/images/template/header_bg.png) repeat-x; color: #ffffff; font-weight: bold; padding: 3px; }
+.tbl th { background: transparent url(/theme/admin/images/template/bg.jpg) repeat-x; border: 1px solid #333; color: #000000; font-weight: bold; padding: 3px; text-align: left; vertical-align: top; }
+.tbl .th { background: transparent url(/theme/admin/images/template/bg.jpg) repeat-x; color: #000000; font-weight: bold; height: 22px; padding: 3px; }
 .tbl td,.tbl .td { border: 1px solid #333; padding: 3px; }
 .tbl .submit { text-align: right; background-color: #E89F0E; }
 .tbl .button { background-color: #eeeeee; }
-.tbl .message { background: #C7DEF2 url(/theme/images/template/info_16.gif) no-repeat 3px; font-weight: bold; line-height: 20px; padding: 0px 0px 0px 25px; vertical-align: middle; }
+.tbl .message { background: #C7DEF2 url(/theme/admin/images/template/info_16.gif) no-repeat 3px; font-weight: bold; line-height: 20px; padding: 0px 0px 0px 25px; vertical-align: middle; }
 .highlight { background: #d5fcdc; }
 .even      { background: #fff; }
 .mo        { background: #e3f1fb; }
@@ -208,5 +209,5 @@ table { border-collapse: collapse; }
 #footer .footerSmall   { font-size:80%; }
 #footer p       { line-height:20px; }
 #footer a       { color:#fff; }
-#footer img       { vertical-align:text-bottom; padding-right:3px; }
+#footer img     { vertical-align:text-bottom; padding-right:3px; }
 #footer a:hover { text-decoration:underline; }
