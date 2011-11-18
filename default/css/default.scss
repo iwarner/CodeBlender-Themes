@@ -1,8 +1,4 @@
 
-/** RESET CLASSES FROM YUI **/
-
-html{outline:none;color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
-
 /** BODY ELEMENT **/
 
 body { background:#f6f6f6 url(/theme/default/images/template/header.png) repeat-x; color:#4E4E4E; font:1em Arial,Helvetica,sans-serif; }
@@ -208,13 +204,14 @@ li.faq div { margin:5px 0 15px; text-align:justify; }
 #copyrightLink    { float:right; text-align:right; }
 #copyrightList li { font-size:80%; display:inline; border-right:1px solid #DCDCDC; padding:0 10px; margin:0; }
 
-/* USER MESSAGES */
+/* MESSAGE */
 
-.message    { border:2px solid #97BAD3; background:#EDF5FA url(/images/icons/aesthetica2/help_48.png) 20px no-repeat; color:#3289C6; padding:20px 24px 20px 80px; font-size:80%; }
-.msgError   { border:2px solid #C51616; background:#FFE4E4 url(/images/icons/aesthetica2/remove_48.png) 20px no-repeat; color:#C51616; }
-.msgWarning { border:2px solid #D6C565; background:#FFFBE4 url(/images/icons/aesthetica2/warning_48.png) 20px no-repeat; color:#C7A223; }
-.msgSuccess { border:2px solid #529E29; background:#E1F9D4 url(/images/icons/aesthetica2/tick_48.png) 20px no-repeat; color:#529E29; }
-.msgInfo    { border:2px solid #97BAD3; background:#EDF5FA url(/images/icons/aesthetica2/info_48.png) 20px no-repeat; color:#3289C6; }
+.message         { padding:20px 24px 20px 80px; font-size:90%; }
+.message.help    { border:2px solid #97BAD3; background:#EDF5FA url(/theme/default/images/icons/message/help.png) 20px no-repeat; color:#3289C6; }
+.message.error   { border:2px solid #C51616; background:#FFE4E4 url(/theme/default/images/icons/message/error.png) 20px no-repeat; color:#C51616; }
+.message.warning { border:2px solid #D6C565; background:#FFFBE4 url(/theme/default/images/icons/message/warning.png) 20px no-repeat; color:#C7A223; }
+.message.success { border:2px solid #529E29; background:#E1F9D4 url(/theme/default/images/icons/message/success.png) 20px no-repeat; color:#529E29; }
+.message.info    { border:2px solid #97BAD3; background:#EDF5FA url(/theme/default/images/icons/message/info.png) 20px no-repeat; color:#3289C6; }
 
 /* PORTFOLIO */
 
