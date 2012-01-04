@@ -1,0 +1,46 @@
+.boxFloatCenter
+{
+	padding-top:5px
+}
+
+.boxFloatLeft
+{
+	float:left;
+	width:50%;
+	clear:left
+}
+
+.boxFloatRight
+{
+	float:right;
+	width:49%
+}
+
+.boxContent
+{
+	padding:5px
+}
+
+.boxTitle
+{
+	background-color:#d8dfea;
+	border-top:1px solid #3b5998;
+	border-bottom:1px solid #aaa;
+	color:#3b5998;
+	font-size:12px;
+	font-weight:700;
+	padding:2px 2px 2px 5px
+}
+
+.boxCenter,.boxLeft,.boxRight
+{
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-bottom:2px solid #ccc;
+	position:relative
+}
+
+.boxLeft,.boxRight
+{
+	margin-top:5px
+}

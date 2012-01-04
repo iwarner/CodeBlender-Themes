@@ -1,0 +1,118 @@
+/** NAVIGATION **/
+
+/*#adminNav { clear:left; float:left; list-style:none; margin:0 5px 35px -180px; padding:0; position:relative; width:160px; }
+#adminNav * { border-color:#DFDFDF; }
+#adminNav .subNav { display:none; }
+#adminNav .menuImage { float:left; height:28px; width:28px; }
+#adminNav .menuImage a { height:24px; }
+#adminNav .iconDashboard div.menuImage { background: url("/images/admin/menu-vs.png") no-repeat scroll -61px -33px transparent; }
+#adminNav .iconDashboard:hover div.menuImage, #adminNav .iconDashboard.wp-has-current-submenu div.menuImage, #adminNav .iconDashboard.current div.menuImage { background: url("/images/admin/menu-vs.png") no-repeat scroll -61px -1px transparent; }
+
+#adminNav li { cursor:pointer; margin:0; padding:0; }
+#adminNav li.menuTop { min-height:26px; }
+#adminNav li.menuOpen a.menuTopLast { border-bottom:0 none; border-bottom-left-radius:0; border-bottom-right-radius:0; }*/
+
+#nav
+{
+	clear:left;
+	float:left;
+	list-style:none outside none;
+	position:relative;
+	width:160px;
+	margin:0 5px 35px -180px;
+	padding:0
+}
+
+#nav .navigation
+{
+	background:#E0E9E9 url(/theme/admin/images/template/menu_back.gif) right repeat-y;
+	margin-bottom:1em
+}
+
+#nav .navigation:before
+{
+	background:transparent url(/theme/admin/images/template/menu_tr.gif) no-repeat top right;
+	border-bottom:1px solid #ddd;
+	content:url(/theme/admin/images/template/key-point_tl.gif);
+	display:block;
+	font-size:1px;
+	height:8px;
+	line-height:0.1;
+	margin:0
+}
+
+#nav .navigation:after
+{
+	background:transparent url(/theme/admin/images/template/menu_br.gif) scroll no-repeat bottom right;
+	border-top:1px solid #fff;
+	content:url(/theme/admin/images/template/key-point_bl.gif);
+	display:block;
+	font-size:1px;
+	height:8px;
+	line-height:0.1;
+	padding-top:0;
+	margin:0 0 10px
+}
+
+#nav .navigation ul
+{
+	list-style:none;
+	margin:0;
+	padding:0
+}
+
+#nav .navigation li
+{
+	display:inline;
+	margin:0;
+	padding:0
+}
+
+#nav .navigation ul li a
+{
+	padding-left:25px
+}
+
+#nav .navigation li a
+{
+	background-color:#EDF2F2;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #eee;
+	border-right:1px solid #ddd;
+	display:block;
+	text-decoration:none;
+	padding:5px 10px
+}
+
+#nav .navigation li a:hover
+{
+	background-color:#eee
+}
+
+/*
+#adminmenu * {
+    -moz-user-select: none;
+}
+
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu .menu-top .current {
+    background: url("/images/admin/menu-bits-vs.gif") repeat-x scroll left top #3C6B95;
+    border-color: #1D507D;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+a, #adminmenu a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, #media-upload a.del-link, #media-items a.delete, .plugins a.delete, .ui-tabs-nav a {
+    color: #1C6280;
+}
+#adminmenu a {
+    display: block;
+    line-height: 18px;
+    padding: 1px 5px 3px;
+}
+#wphead a, #adminmenu a, #sidemenu a, #taglist a, #catlist a, #show-settings a {
+    text-decoration: none;
+}
+#adminmenu .wp-has-submenu:hover .wp-menu-toggle, #adminmenu .wp-menu-open .wp-menu-toggle {
+    background: url("/images/admin/menu-bits-vs.gif") no-repeat scroll left -109px transparent;
+}*/

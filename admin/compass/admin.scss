@@ -1,0 +1,21 @@
+
+/** THEME SPECIFIC CSS **/
+
+@import 'admin/global';
+@import 'admin/head';
+@import 'admin/content';
+@import 'admin/sidebar';
+@import 'admin/footer';
+
+/** PAGE SPECIFIC CSS **/
+
+@import 'admin/page/login';
+
+/** ELEMENTS CSS **/
+
+@import 'admin/elements/form';
+@import 'admin/elements/grid_icons';
+
+/** WIDGET CSS **/
+
+@import '../../library/widgets/message';

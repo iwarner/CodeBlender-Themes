@@ -1,0 +1,122 @@
+#login
+{
+    margin:3em auto;
+    position:relative;
+    width:320px
+}
+
+#loginForm
+{
+    background-color:#fff;
+    border:1px solid #E5E5E5;
+    border-radius:5px;
+    box-shadow:0 4px 18px #C8C8C8;
+    margin-left:8px;
+    padding:16px 16px 25px
+}
+
+label
+{
+    color:#777;
+    font-size:115%
+}
+
+#loginForm input[type="text"],#loginForm input[type="password"]
+{
+    background-color:#eee;
+    border:1px solid #ddd;
+    font-size:180%;
+    margin:2px 6px 16px 0;
+    padding:3px;
+    width:97%
+}
+
+input
+{
+    color:#555
+}
+
+form .rememberMe
+{
+    @include float('left');
+    font-weight:400
+}
+
+form .rememberMeLabel
+{
+    bottom:2px;
+    font-size:90%;
+    line-height:19px;
+    padding-left:5px;
+    position:relative
+}
+
+.submit
+{
+    border-color:#DFDFDF
+}
+
+input.button-primary,button.button-primary,a.button-primary
+{
+    background:url(/images/admin/button-grad.png) repeat-x scroll left top #21759B;
+    border-color:#298CBA;
+    color:#FFF;
+    @include float('right');
+    font-weight:700;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.3)
+}
+
+.lostPassword
+{
+    font-size:90%;
+    margin:0 0 0 8px;
+    padding:16px
+}
+
+form ul.errors
+{
+    background-color:#FBE1E3;
+    border:1px solid #C00;
+    border-radius:5px;
+    box-shadow:0 0 20px #C8C8C8;
+    margin-bottom:10px;
+    padding:10px
+}
+
+form ul.errors li
+{
+    color:#666;
+    font-size:90%;
+    padding:5px 0
+}
+
+/** ERROR BOX **/
+.errorBox
+{
+    background:url(/images/admin/error_box.gif) no-repeat 100% 100%;
+    color:#FFF;
+    font-size:100%;
+    line-height:13px;
+    padding:0 0 7px;
+    position:absolute
+}
+
+.errorBox .errorBoxSleeve
+{
+    background:url(/images/admin/error_box_sleeve.gif) no-repeat 100% 0;
+    min-height:26px;
+    padding:9px 9px 5px 24px;
+    width:106px
+}
+
+/** BUTTONS **/
+.button-primary
+{
+    border:1px solid;
+    border-radius:11px 11px 11px 11px;
+    cursor:pointer;
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    margin-top:-3px;
+    padding:3px 10px;
+    text-decoration:none
+}

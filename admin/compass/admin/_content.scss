@@ -1,0 +1,19 @@
+
+#content
+{
+	min-height:100%;
+	margin-left:175px;
+	padding:0 25px
+}
+
+.login #content
+{
+	margin-left:0
+}
+
+#mainContent
+{
+	@include float('left');
+	width:100%;
+	padding-bottom:50px
+}

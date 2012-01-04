@@ -1,0 +1,83 @@
+input,select,textarea
+{
+    color:#6F6F6F;
+    font-size:90%;
+    padding:1px
+}
+
+.zend_form
+{
+	font-size:80%;
+	margin:5px auto;
+	overflow:auto;
+	padding:0;
+	width:100%
+}
+
+.zend_form fieldset
+{
+	border:2px solid #ccc;
+	padding:15px
+}
+
+.zend_form dt
+{
+	clear:both;
+	@include float('left');
+	margin:8px 5px 5px 0;
+	padding:0;
+	text-align:right;
+	width:100px
+}
+
+.zend_form dd
+{
+        @include float('left');
+	margin:5px 2px 5px 0;
+	padding:0
+}
+
+.zend_form p
+{
+	margin:0;
+	padding:0
+}
+
+.zend_form input,.zend_form textarea
+{
+	background:#fafafa;
+	border:1px solid #ddd;
+	font:bold 0.95em arial, sans-serif;
+	margin:1px;
+	padding:3px
+}
+
+.zend_form input:hover,.zend_form input:focus,.zend_form textarea:hover,.zend_form textarea:focus
+{
+	background:#f6f6f6;
+	border-color:#c5c5c5
+}
+
+.zend_form .submit
+{
+	background-color:#1a477e;
+	color:#d79c2b;
+	cursor:pointer;
+        @include float('right');
+}
+
+.zend_form .submit:hover
+{
+	background-color:#d79c2b;
+	color:#1a477e
+}
+
+.zend_form .required:before
+{
+	content:'* '
+}
+
+.zend_form .optional:before
+{
+	content:'+ '
+}

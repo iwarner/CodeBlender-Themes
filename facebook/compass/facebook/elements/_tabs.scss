@@ -1,0 +1,40 @@
+ul.tabs
+{
+    position:absolute;
+    right:0;
+    top:170px;
+
+}
+
+.tabs li
+{
+
+    display:inline;
+    margin:0
+}
+
+.tabs li a
+{
+    @include float('left');
+    background:url(/theme/default/images/tabs/tabLeft.png) no-repeat;
+    padding:0 0 0 4px;
+    text-decoration:none
+}
+
+.tabs li a span
+{
+    background:url(/theme/default/images/tabs/tabRight.png) no-repeat 100% 0;
+    color:#FFF;
+    display:block;
+    padding:6px 15px 1px 8px
+}
+
+.tabs li a:hover, .tabs .active a
+{
+    background-position:0 -42px
+}
+
+.tabs li a:hover span, .tabs .active a span
+{
+    background-position:100% -42px
+}

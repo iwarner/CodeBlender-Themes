@@ -1,0 +1,31 @@
+#topMenu
+{
+    @include float('right');
+
+    font-size : 85%;
+    margin    : 15px 0 10px
+}
+
+#topMenu dt
+{
+    display : inline
+}
+
+#topMenu dt a:link,#topMenu dt a:visited
+{
+    border-right    : 1px solid #DCDCDC;
+    color           : #fff;
+    padding         : 0 10px;
+    text-decoration : none
+}
+
+#topMenu dt a:hover
+{
+    color           : #1a477e;
+    text-decoration : underline
+}
+
+#topMenu dt a.noPadding
+{
+    padding-right : 0
+}

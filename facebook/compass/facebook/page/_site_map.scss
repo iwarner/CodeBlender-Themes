@@ -1,0 +1,82 @@
+#faqListCats
+{
+	background-color:#FFF;
+	border:1px solid #C1C1C1;
+        @include float('left');
+	margin-right:25px;
+	padding:8px 15px;
+	width:216px
+}
+
+#faqMain h2.catHeader
+{
+	background:#DFDFDF url(/theme/default/images/template/faqHeader.png) 0 0 no-repeat;
+	color:#4E4E4E;
+	font-size:18px;
+	height:30px;
+	line-height:30px;
+	margin:0 0 10px;
+	padding:0 15px
+}
+
+#faqMain h2.catHeader a
+{
+	cursor:pointer;
+        @include float('right');
+	font-size:11px
+}
+
+#faqListCats h3
+{
+	color:#CB3C00;
+	margin:0 0 10px
+}
+
+.catList li a
+{
+	cursor:pointer;
+	display:block;
+	padding:7px 0;
+	text-decoration:none
+}
+
+.catList li a:hover
+{
+	background-color:#EBF3FA
+}
+
+.catList li
+{
+	border-top:1px dashed #C1C1C1;
+	display:block
+}
+
+#faqMain
+{
+        @include float('left');
+	width:625px
+}
+
+#faqMain ul
+{
+	padding:0 15px
+}
+
+.faqTitle
+{
+	color:#CB3C00;
+	font-size:14px;
+	font-weight:700
+}
+
+li.faq div
+{
+	margin:5px 0 15px;
+	text-align:justify
+}
+
+.catDesc
+{
+	font-weight:700;
+	padding:0 15px 10px
+}

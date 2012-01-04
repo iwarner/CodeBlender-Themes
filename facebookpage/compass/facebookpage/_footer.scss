@@ -1,0 +1,88 @@
+@include sticky-footer(350px,'#wrap','#footerClear','#footer');
+
+#footer, #footerClear
+{
+    clear: both;
+}
+
+#footer
+{
+    background:#111 url(/theme/default/images/template/footer.png) repeat-x
+}
+
+#footerInner
+{
+    color:#D8D8D8;
+    margin:0 auto;
+    position:relative;
+    top:110px;
+    width:900px
+}
+
+#footerTitle
+{
+    left:10px;
+    position:absolute;
+    top:-15px
+}
+
+#footer ul
+{
+    overflow:auto
+}
+
+#footer li
+{
+    @include float('left');
+    background:url(/theme/default/images/template/testimonialQuote.png) no-repeat;
+    font-size:80%;
+    list-style:none;
+    margin:0 25px 0 0;
+    padding:0 10px;
+    text-align:justify;
+    text-indent:18px;
+    width:255px
+}
+
+#footer li span
+{
+    color:#8E8E8E;
+    display:block;
+    font-style:italic;
+    text-align:right
+}
+
+#copyrightTitle
+{
+    color:#BFBFBF;
+    font-size:80%;
+    margin:5px 0 10px
+}
+
+#copyrightInfo
+{
+    background-color:#2A2A2A;
+    border-top:1px solid #3B3B3B;
+    padding:20px 0 30px
+}
+
+#copyrightInner
+{
+    margin:0 auto;
+    width:900px
+}
+
+#copyrightLink
+{
+    @include float('right');
+    text-align:right
+}
+
+#copyrightList li
+{
+    border-right:1px solid #DCDCDC;
+    display:inline;
+    font-size:80%;
+    margin:0;
+    padding:0 10px
+}

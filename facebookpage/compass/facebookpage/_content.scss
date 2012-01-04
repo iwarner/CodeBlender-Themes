@@ -1,0 +1,74 @@
+
+#content
+{
+    @include float('left');
+    width:580px;
+}
+
+
+#content p,#content li
+{
+    margin-bottom:10px
+}
+
+.colLeft
+{
+        @include float('left');
+	margin:0 20px 0 0;
+	width:450px
+}
+
+.colRight
+{
+        @include float('left');
+	margin:0;
+	width:360px
+}
+
+.row
+{
+	clear:both;
+	display:block;
+	margin:0 19px;
+	min-height:1px;
+	position:relative;
+	z-index:3
+}
+
+#googleSearch
+{
+	bottom:25px;
+	font-size:80%;
+	position:absolute;
+	right:0
+}
+
+#content p,#content li
+{
+	margin-bottom:10px
+}
+
+.noBorder,* html .noBorder
+{
+	border:none !important
+}
+
+a:hover,.triangleOrange
+{
+	color:#d79c2b
+}
+
+.floatRight,form .submit,.alignright
+{
+	float:right
+}
+
+.textRed,.colorRed
+{
+	color:red
+}
+
+.listSize,.featuresList li
+{
+	font-size:80%
+}

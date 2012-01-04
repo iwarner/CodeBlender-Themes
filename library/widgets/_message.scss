@@ -1,0 +1,41 @@
+
+.message
+{
+    font-size:90%;
+    padding:20px 24px 20px 80px
+}
+
+.message.error
+{
+    background:#FFE4E4 url(/theme/default/images/icons/message/error.png) 20px no-repeat;
+    border:2px solid #C51616;
+    color:#C51616
+}
+
+.message.help
+{
+    background:#EDF5FA url(/theme/default/images/icons/message/help.png) 20px no-repeat;
+    border:2px solid #97BAD3;
+    color:#3289C6
+}
+
+.message.info
+{
+    background:#EDF5FA url(/theme/default/images/icons/message/info.png) 20px no-repeat;
+    border:2px solid #97BAD3;
+    color:#3289C6
+}
+
+.message.success
+{
+    background:#E1F9D4 url(/theme/default/images/icons/message/success.png) 20px no-repeat;
+    border:2px solid #529E29;
+    color:#529E29
+}
+
+.message.warning
+{
+    background:#FFFBE4 url(/theme/default/images/icons/message/warning.png) 20px no-repeat;
+    border:2px solid #D6C565;
+    color:#C7A223
+}

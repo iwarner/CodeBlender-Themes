@@ -1,0 +1,46 @@
+@include sticky-footer(84px,'#wrap','#footerClear','#footer');
+
+#footer,#footerClear
+{
+	clear:both
+}
+
+#footer
+{
+	background-color:#7f93bc;
+	color:#003078;
+	position:relative;
+	width:100%
+}
+
+#footer .footerContent
+{
+	border-top:4px solid #3b5998;
+	padding:15px 15px 65px
+}
+
+#footer .footerSmall
+{
+	font-size:80%
+}
+
+#footer p
+{
+	line-height:20px
+}
+
+#footer a
+{
+	color:#fff
+}
+
+#footer img
+{
+	vertical-align:text-bottom;
+	padding-right:3px
+}
+
+#footer a:hover
+{
+	text-decoration:underline
+}

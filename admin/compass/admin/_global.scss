@@ -1,0 +1,128 @@
+html,body
+{
+    font:90% tahoma, helvetica, sans-serif;
+    height:100%
+}
+
+.textCenter
+{
+    text-align:center
+}
+
+.textRight
+{
+    text-align:right
+}
+
+.textLeft
+{
+    text-align:left
+}
+
+.floatLeft
+{
+    @include float('left');
+}
+
+.floatRight
+{
+    @include float('right');
+}
+
+.hide
+{
+    display:none
+}
+
+.skipLink
+{
+    position:absolute;
+    left:-999px;
+    width:990px
+}
+
+.text_red
+{
+    background-color:inherit;
+    color:red
+}
+
+.gap5
+{
+    margin-top:5px
+}
+
+.gap10
+{
+    margin-top:10px
+}
+
+.gap10B
+{
+    padding-bottom:10px
+}
+
+.icon
+{
+    border:0;
+    padding-right:5px;
+    vertical-align:sub;
+    cursor:pointer
+}
+
+.pointer
+{
+    cursor:pointer
+}
+
+hr
+{
+    border-top:1px solid #7f93bc;
+    border-bottom:0;
+    border-left:0;
+    border-right:0
+}
+
+a
+{
+    color:#1A477E;
+    text-decoration:none
+}
+
+a:hover
+{
+    color:#D79C2B
+}
+
+.clear
+{
+    clear:both
+}
+
+#wrap
+{
+    width:100%
+}
+
+.strong,strong
+{
+    font-weight:700
+}
+
+.errorBox
+{
+    color:#FFF;
+    font-size:100%;
+    line-height:13px;
+    background:url(/theme/admin/images/template/error_box.gif) no-repeat 100% 100%;
+    position:absolute;
+    padding:0 0 7px
+}
+
+.errorBox .errorBoxSleeve
+{
+    background:url(/theme/admin/images/template/error_box_sleeve.gif) no-repeat 100% 0;
+    width:106px;
+    min-height:26px;
+    padding:9px 9px 5px 24px
+}

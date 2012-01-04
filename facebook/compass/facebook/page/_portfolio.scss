@@ -1,0 +1,52 @@
+#portfolio
+{
+	border:10px solid #162D31;
+	width:560px
+}
+
+#portfolioGrid
+{
+	margin-bottom:7px;
+	overflow:hidden
+}
+
+#portfolioGrid li
+{
+	border:1px solid #aaa;
+	display:inline;
+	@include float('left');
+	height:184px;
+	list-style:none outside none;
+	margin:7px 0 0 7px;
+	overflow:hidden;
+	width:267px
+}
+
+.portfolioToolTip
+{
+	background-color:#000;
+	border:2px solid #1A477E;
+	color:#FFF;
+	display:none;
+	font-size:14px;
+	height:144px;
+	line-height:21px;
+	padding:20px;
+	width:227px;
+	z-index:200
+}
+
+.portfolioToolTip .portfolioToolTipTitle
+{
+	color:#D5921F;
+	font-size:130%;
+	font-weight:700;
+	margin-bottom:5px
+}
+
+.portfolioToolTip .portfolioToolTipLink
+{
+	bottom:10px;
+	position:absolute;
+	right:10px
+}

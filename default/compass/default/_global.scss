@@ -1,0 +1,196 @@
+/** BODY ELEMENT **/
+
+body
+{
+    background:#f6f6f6 url(/theme/default/images/template/header.png) repeat-x;
+    color:#4E4E4E;
+    font:1em Arial,Helvetica,sans-serif
+}
+
+p
+{
+    font-size:80%;
+    line-height:1.3em
+}
+
+strong, b
+{
+    font-weight:700
+}
+
+h1
+{
+    font-size:165%;
+    font-weight:700
+}
+
+h2
+{
+    font-size:89%;
+    font-weight:700;
+    padding:5px 0 10px
+}
+
+h3
+{
+    color:#3289C6;
+    font-size:125%;
+    margin:10px 0
+}
+
+h4
+{
+    font-size:90%;
+    margin:5px 0
+}
+
+a
+{
+    color:#3289C6;
+    text-decoration:underline
+}
+
+#wrap
+{
+    margin:0 auto;
+    position:relative;
+    width:1000px
+}
+
+#tagLine
+{
+    width:600px
+}
+
+a#freeQuote
+{
+    background:#1D1D1D url(/theme/default/images/template/freeQuote.png) no-repeat;
+    @include float('right');
+    height:57px;
+    margin:3px 32px 0 auto;
+    outline:none;
+    text-indent:-999em;
+    width:230px
+}
+
+a#purchaseNow
+{
+    background:#1D1D1D url(/theme/default/images/template/purchaseNow.png) no-repeat
+}
+
+a#joinNow
+{
+    background:#1D1D1D url(/theme/default/images/template/joinNow.png) no-repeat
+}
+
+a#registerNow
+{
+    background:#1D1D1D url(/theme/default/images/template/registerNow.png) no-repeat
+}
+
+a#joinNow,a#purchaseNow,a#registerNow
+{
+    @include float('right');
+    height:57px;
+    margin:3px 32px 0 auto;
+    text-indent:-999em;
+    width:230px
+}
+
+.clear
+{
+    clear:both
+}
+
+.floatLeft
+{
+    @include float('left');
+}
+
+.triangleBlue
+{
+    color:#1a477e
+}
+
+.alignLeft
+{
+    text-align:left
+}
+
+.alignRight
+{
+    text-align:right
+}
+
+.hidden
+{
+    display:none
+}
+
+.dividerLine
+{
+    border-bottom:1px solid #DCDCDC;
+    height:2px
+}
+
+img.image
+{
+    border:2px solid #bbb
+}
+
+img.image.no-border
+{
+    border:none
+}
+
+img.image.middle
+{
+    vertical-align:bottom
+}
+
+img.image.floatRight
+{
+    margin:5px 0 5px 15px
+}
+
+img.image.floatLeft
+{
+    margin:5px 15px 5px 0
+}
+
+a img.image
+{
+    border:2px solid #568EB6
+}
+
+a:hover img.image
+{
+    border:2px solid #CCC !important
+}
+
+* html a:hover img.image
+{
+    border:2px solid #568EB6 !important
+}
+
+li
+{
+    list-style:disc outside;
+    margin-left:15px
+}
+
+li p,ul p,ol p
+{
+    font-size:100%
+}
+
+.fList ul
+{
+    font-size:80%;
+    margin:1em 1em 1em 2em
+}
+
+.fList ul li
+{
+    list-style:disc outside
+}

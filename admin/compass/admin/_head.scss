@@ -1,0 +1,162 @@
+#header
+{
+	background:url(/theme/admin/images/template/header_bg.png);
+	border-bottom:4px solid #7f93bc;
+	color:#fff;
+	height:20px;
+	padding:5px
+}
+
+#header a
+{
+	color:#F5AE25
+}
+
+#header h1,#header .flatRender
+{
+	position:absolute;
+	z-index:10;
+	margin:0
+}
+
+#header h1
+{
+	color:#eee;
+	font-weight:700;
+	font-size:130%;
+	left:25px;
+	top:5px
+}
+
+#header .flatRender
+{
+	bottom:5px;
+	color:#ccc;
+	left:25px;
+	z-index:1000
+}
+
+#header .links
+{
+	list-style:none;
+	font-size:110%;
+	position:absolute;
+	right:10px;
+	top:3px;
+	z-index:100;
+	margin:0
+}
+
+#header .links li
+{
+	color:#eee;
+	float:left
+}
+
+#header .links li a
+{
+	color:#eee
+}
+
+#header .links li a:hover
+{
+	color:#D79C2B
+}
+
+#header .tabs
+{
+	bottom:0;
+	list-style:none;
+	position:absolute;
+	right:0;
+	width:auto;
+	z-index:100;
+	margin:0;
+	padding:0 15px 0 0
+}
+
+#header .tabs li
+{
+	background:transparent url(/theme/admin/images/template/header_tab.gif) 100% -600px no-repeat;
+	border-bottom:1px solid #515358;
+	float:right;
+	margin:0 1px 0 0;
+	padding:0 6px 0 0
+}
+
+#header .tabs a
+{
+	background:transparent url(/theme/admin/images/template/header_tab.gif) 0 -600px no-repeat;
+	color:#fff;
+	display:block;
+	float:left;
+	font-weight:700;
+	text-decoration:none;
+	padding:4px 4px 4px 10px
+}
+
+#header .tabs li:hover a
+{
+	background-position:0 -400px
+}
+
+#header .tabs li:hover
+{
+	background-position:100% -400px
+}
+
+#info
+{
+	background:transparent url(/theme/admin/images/template/breadcrumbs.png) bottom repeat-x;
+	border-top:2px solid #3b5998;
+	color:#999;
+	height:20px;
+	padding:4px 0 35px 25px
+}
+
+#info a:link,#info a:visited
+{
+	color:#0E2861
+}
+
+#info .login
+{
+	color:#303030;
+	position:absolute;
+	right:20px;
+	top:32px;
+	z-index:10;
+	padding:10px 5px 0
+}
+
+#info .login .input
+{
+	color:#000;
+	border-right:1px solid #3b5998
+}
+
+#info .login dt
+{
+	float:left;
+	padding-right:3px;
+	padding-top:2px
+}
+
+#info .login dd
+{
+	float:left;
+	padding-right:5px
+}
+
+#info .welcome
+{
+	padding-top:10px;
+	position:absolute;
+	right:20px;
+	top:35px
+}
+
+#header a:hover,#info a:hover,#info a:active
+{
+	color:#fff
+}
